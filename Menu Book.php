@@ -79,7 +79,7 @@
     <section id="newsletter" class="section-p1">
       <div class="newstext">
         <h4>Sign Up For Newsletters</h4>
-        <p>Get E-mail updates about our <span>special offers</span>.</p>
+        <p>Get E-mail updates about our <span>special offer</span>.</p>
       </div>
       <div class="form">
         <input type="text" placeholder="Your email address" />
