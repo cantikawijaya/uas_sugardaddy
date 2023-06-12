@@ -6,6 +6,7 @@
     <title>Admin Panel</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fe279e408d.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
@@ -17,9 +18,9 @@
         <ul id="navbar">
           <li><a href="index.html">Home</a></li>
           <li><a href="Menu Book.php">Menu Book</a></li>
-          <li><a class="active" href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li id="lg-bag">
-            <a href="upload.php"><i class="fa-solid fa-store" style="color: #422d4d"></i></a>
+            <a class="active" href="upload.php"><i class="fa-solid fa-store" style="color: #422d4d"></i></a>
           </li>
           <a href="#" id="close"><i class="fa fa-times"></i> </a>
         </ul>
