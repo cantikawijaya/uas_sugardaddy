@@ -16,16 +16,16 @@
       <div>
         <ul id="navbar">
           <li><a href="index.html">Home</a></li>
-          <li><a href="Menu Book.html">Menu Book</a></li>
+          <li><a href="Menu Book.php">Menu Book</a></li>
           <li><a class="active" href="contact.html">Contact</a></li>
           <li id="lg-bag">
-            <a href="cart.html"><i class="fa-solid fa-store" style="color: #422d4d"></i></a>
+            <a href="upload.php"><i class="fa-solid fa-store" style="color: #422d4d"></i></a>
           </li>
           <a href="#" id="close"><i class="fa fa-times"></i> </a>
         </ul>
       </div>
       <div id="mobile">
-        <a href="cart.html"><i class="fa-solid fa-store" style="color: #422d4d"></i></a>
+        <a href="upload.php"><i class="fa-solid fa-store" style="color: #422d4d"></i></a>
         <i id="bar" class="fas fa-outdent"></i>
       </div>
     </section>
