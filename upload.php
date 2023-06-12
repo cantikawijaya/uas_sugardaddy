@@ -10,6 +10,26 @@
 </head>
 <body>
 
+<section id="header">
+      <a href="#"><img src="img/Logo.png" width="80" height="50" class="logo" alt="" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Menu Book.html">Menu Book</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="fa-solid fa-store" style="color: #422d4d"></i></a>
+          </li>
+          <a href="#" id="close"><i class="fa fa-times"></i> </a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-store" style="color: #422d4d"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
 <section id="page-header">
       <h2>#ADMIN PANEL</h2>
       <p>Input Item Here!</p>
@@ -18,13 +38,13 @@
     <center>
         <div class="main">
             <form action="insert.php" method="POST" enctype="multipart/form-data">
-                <label for="">Name :</label>
+                <label for="">Name </label><br>
                 <input type="text" name="name"><br>
-                <label for="">Price:</label>
+                <label for="">Price </label><br>
                 <input type="text" name="price" id=""> <br>
                 <label for="">Image</label>
                 <input type="file" name="image" id=""><br>
-                <button name="upload">Upload</button>
+                <button name="upload" class="normal">Upload</button>
             </form>
         </div>
     </center>

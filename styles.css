@@ -2,6 +2,7 @@
     background-color: gainsboro;
     margin-top: 10px;
     max-width: 400px;
+    padding: 20px;
 }
 
 input,button{
